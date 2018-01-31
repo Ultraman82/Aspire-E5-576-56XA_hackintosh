@@ -4,6 +4,9 @@
 osx version 10.12.6<br>
 clover version 4392
 
+# references
+1. <a href="https://github.com/RehabMan/OS-X-Clover-Laptop-Config">OS-X-Clover-Laptop-Config</a>
+2. <a href="https://www.reddit.com/r/hackintosh/comments/7amizy/guide_installing_macos_high_sierra_on_the_mi/">guide_installing_macos_high_sierra_on_the_mi</a>
 # Kexts
 ACPIBatteryManager.kext<br>
 AppleALC.kext<br>
