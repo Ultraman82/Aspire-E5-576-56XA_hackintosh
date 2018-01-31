@@ -36,6 +36,7 @@ cam : UVC Camera VendorID_3034 ProductID_2251<br>
 touchpad : ELAN Input Device<br>
 wifi : Qualcomm Atheros QCA9377 with Bluetooth nvme - only bluetooth work<br>
 sound : Realtek ALC255 Analog<br>
+lcd : LM156LF1L03<br>
 
 Intel(R) Xeon(R) E3 - 1200 v6/7th Gen Intel(R) Core(TM) Host Bridge/DRAM Registers - 5914<br>
 Intel(R) Serial IO I2C Host Controller - 9D60<br>
