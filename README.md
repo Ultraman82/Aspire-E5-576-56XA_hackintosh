@@ -19,7 +19,6 @@ IntelGraphicsDVMTFixup.kext<br>
 IntelGraphicsFixup.kext<br>
 Lilu.kext<br>
 Shiki.kext<br>
-USBInjectAll_patched.kext - <a href="https://github.com/daliansky">daliansky</a><br>
 RealtekRTL8111.kext<br>
 ApplePS2SmartTouchPad.kext<br>
 VoodooI2C.kext<br>
@@ -53,14 +52,13 @@ Mobile 7th Generation Intel(R) Processor Family I/O LPC Controller (U with iHDCP
 2. when connect hdmi at only first time, internal display is black screen.
 3. when internal display black, if lid closed and open work dual display.
 4. Touch Pad, Keyboard
-5. partially work USB - 480MB (not test USB C Type)
-6. audio ALC255, Intel hdmi output work - AppleAlc.kext
-7. Internal Display Backlight control. can not control function key.
-8. Bluetooth does work. but later replace to BCM94352z.
-9. SSD Trim Enable.
+5. audio ALC255, Intel hdmi output work - AppleAlc.kext
+6. Internal Display Backlight control. can not control function key.
+7. Bluetooth does work. but later replace to BCM94352z.
+8. SSD Trim Enable.
 
 # todo
-1. SSDT fix
+1. SSDT / DSDT fix (working...)
 2. when connect hdmi at only first time, internal display is black screen issue.
 3. replace wifi/bluetooth card to bcm94352z
-4. USB 3.0 nd 3.1
+
