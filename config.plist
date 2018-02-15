@@ -224,7 +224,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>kext-dev-mode=1 dart=0 -disablegfxfirmware</string>
+		<string>kext-dev-mode=1 dart=0</string>
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>NeverHibernate</key>
@@ -236,7 +236,7 @@
 	</dict>
 	<key>Devices</key>
 	<dict>
-		<key>AddProperties</key>
+		<key>#AddProperties</key>
 		<array>
 			<dict>
 				<key>Comment</key>
@@ -278,9 +278,9 @@
 		<key>Audio</key>
 		<dict>
 			<key>AFGLowPowerState</key>
-			<false/>
+			<true/>
 			<key>Inject</key>
-			<string>Detect</string>
+			<string>3</string>
 			<key>ResetHDA</key>
 			<true/>
 		</dict>
