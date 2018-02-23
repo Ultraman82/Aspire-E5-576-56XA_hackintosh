@@ -33,7 +33,7 @@ gpu : intel UHD620 8086:5917<br>
 lan : Realtek 8411B PCI Express Gigabit Ethernet<br>
 cam : UVC Camera VendorID_3034 ProductID_2251<br>
 touchpad : ELAN Input Device<br>
-wifi : Qualcomm Atheros QCA9377 with Bluetooth nvme - only bluetooth work<br>
+wifi : Qualcomm Atheros QCA9377 -> Broadcom BCM94352Z<br>
 sound : Realtek ALC255 Analog<br>
 lcd : LM156LF1L03<br>
 
@@ -54,11 +54,10 @@ Mobile 7th Generation Intel(R) Processor Family I/O LPC Controller (U with iHDCP
 4. Touch Pad, Keyboard
 5. audio ALC255, Intel hdmi output work - AppleAlc.kext
 6. Internal Display Backlight control. can not control function key.
-7. Bluetooth does work. but later replace to BCM94352z.
+7. BCM94352z WiFi & Bluetooth.
 8. SSD Trim Enable.
 
 # todo
 1. SSDT / DSDT fix (working...)
 2. when connect hdmi at only first time, internal display is black screen issue.
-3. replace wifi/bluetooth card to bcm94352z
 
