@@ -8,21 +8,30 @@ clover version 4392
 1. <a href="https://github.com/RehabMan/OS-X-Clover-Laptop-Config">OS-X-Clover-Laptop-Config</a>
 2. <a href="https://www.reddit.com/r/hackintosh/comments/7amizy/guide_installing_macos_high_sierra_on_the_mi/">guide_installing_macos_high_sierra_on_the_mi</a>
 # Kexts
+[EFI/CLOVER/kexts/Other]
 ACPIBatteryManager.kext<br>
 AppleALC.kext<br>
-AppleBacklightInjector.kext<br>
 CodecCommander.kext<br>
-FakePCIID.kext<br>
 FakeSMC.kext<br>
+FakePCIID.kext<br>
 FakePCIID_Intel_HD_Graphics.kext<br>
+FakePCIID_Broadcom_WiFi.kext<br>
 IntelGraphicsDVMTFixup.kext<br>
 IntelGraphicsFixup.kext<br>
 Lilu.kext<br>
 Shiki.kext<br>
+BrcmPatchRAM2.kext<br>
 RealtekRTL8111.kext<br>
 ApplePS2SmartTouchPad.kext<br>
 VoodooI2C.kext<br>
 VoodooI2CHID.kext<br>
+
+[Library/Extensions]
+AppleBacklightInjector.kext<br>
+
+[System/Library/Extensions]
+BrcmPatchRAM2.kext<br>
+BrcmFirmwareRepo.kext<br>
 
 # Hardware Specification
 Acer Aspire E 15 E5-576-56XA<br>
