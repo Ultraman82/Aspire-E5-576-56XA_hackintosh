@@ -226,7 +226,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>kext-dev-mode=1 dart=0</string>
+		<string>kext-dev-mode=1 dart=0 darkwake=0</string>
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>NeverHibernate</key>
@@ -280,11 +280,11 @@
 		<key>Audio</key>
 		<dict>
 			<key>AFGLowPowerState</key>
-			<true/>
+			<false/>
 			<key>Inject</key>
 			<string>3</string>
 			<key>ResetHDA</key>
-			<true/>
+			<false/>
 		</dict>
 		<key>FakeID</key>
 		<dict>
@@ -317,13 +317,13 @@
 			<array>
 				<dict>
 					<key>Hidden</key>
-					<false/>
+					<true/>
 					<key>Type</key>
 					<string>OSXRecovery</string>
 				</dict>
 				<dict>
-					<key>Title</key>
-					<string>Windows</string>
+					<key>Hidden</key>
+					<true/>
 					<key>Type</key>
 					<string>Windows</string>
 				</dict>
@@ -334,6 +334,7 @@
 			<string>Preboot</string>
 			<string>Recovery HD</string>
 			<string>Windows</string>
+			<string>HD(1,GPT,CC6AFB63-8767-4C27-A168-F51E87B992CA,0x800,0x64000)</string>
 		</array>
 		<key>Mouse</key>
 		<dict>
@@ -347,21 +348,30 @@
 			<key>Legacy</key>
 			<false/>
 			<key>Linux</key>
-			<true/>
+			<false/>
 			<key>Tool</key>
 			<true/>
 		</dict>
 		<key>ScreenResolution</key>
 		<string>1920x1080</string>
 		<key>Theme</key>
-		<string>mac</string>
+		<string>One</string>
 	</dict>
 	<key>Graphics</key>
 	<dict>
 		<key>EDID</key>
 		<dict>
+			<key>Custom</key>
+			<data>
+			AP///////wAGEHycAAAAAAoWAQSVIhN4BpqFl1xXjigcUFQAAAAB
+			AQEBAQEBAQEBAQEBAQEBmTaAoHA4KEAwIDYAWMIQAAAYriuAoHA4
+			KEAwIDYAWMIQAAAYAAAAEAAAAAAAAAAAAAAAAAAAAAAA/ABMTTE1
+			NkxGMUwwMwogAAc=
+			</data>
 			<key>Inject</key>
 			<true/>
+			<key>ProductID</key>
+			<string>0x9C7C</string>
 		</dict>
 		<key>Inject</key>
 		<dict>
@@ -415,6 +425,8 @@
 			<dict>
 				<key>Comment</key>
 				<string>10.12+-BCM94352-fvco-darkvoid</string>
+				<key>Disabled</key>
+				<false/>
 				<key>Find</key>
 				<data>
 				gflSqgAAdSk=
@@ -431,6 +443,8 @@
 			<dict>
 				<key>Comment</key>
 				<string>10.11+-BCM94352-CC-Sebinouse-(edit 55 53 to CC)</string>
+				<key>Disabled</key>
+				<false/>
 				<key>Find</key>
 				<data>
 				QYP8/3QsSA==
@@ -447,6 +461,8 @@
 			<dict>
 				<key>Comment</key>
 				<string>10.11+-BT4LE-Handoff-Hotspot-lisai9093</string>
+				<key>Disabled</key>
+				<false/>
 				<key>Find</key>
 				<data>
 				SIX/dEdIiwc=
@@ -463,6 +479,8 @@
 			<dict>
 				<key>Comment</key>
 				<string>10.10.2+-BT4LE-Handoff-Hotspot-Dokterdok</string>
+				<key>Disabled</key>
+				<true/>
 				<key>Find</key>
 				<data>
 				SIXAdFwPt0g=
@@ -484,6 +502,8 @@
 			<dict>
 				<key>Comment</key>
 				<string>10.10+-BCM94352-Airport-Extreme-Skvo</string>
+				<key>Disabled</key>
+				<false/>
 				<key>Find</key>
 				<data>
 				axAAAHUN
@@ -500,6 +520,8 @@
 			<dict>
 				<key>Comment</key>
 				<string>10.11+-BCM94352-CC=XT-Skvo</string>
+				<key>Disabled</key>
+				<false/>
 				<key>Find</key>
 				<data>
 				WFQAKxgsIQAg
@@ -516,6 +538,8 @@
 			<dict>
 				<key>Comment</key>
 				<string>10.11+-BCM94352-CC=#a-Ramalama</string>
+				<key>Disabled</key>
+				<false/>
 				<key>Find</key>
 				<data>
 				QYP8/3QsSA==
@@ -566,6 +590,8 @@
 			<dict>
 				<key>Comment</key>
 				<string>change F%uT%04x to F%uTxxxx in AppleBacklightInjector.kext (credit RehabMan)</string>
+				<key>Disabled</key>
+				<false/>
 				<key>Find</key>
 				<data>
 				RiV1VCUwNHgA
@@ -580,6 +606,8 @@
 			<dict>
 				<key>Comment</key>
 				<string>Boot graphics glitch, 10.12.dp1 (credit denskop)</string>
+				<key>Disabled</key>
+				<false/>
 				<key>Find</key>
 				<data>
 				AQAAdSU=
@@ -596,6 +624,8 @@
 			<dict>
 				<key>Comment</key>
 				<string>Enable TRIM for non-Apple SSDs</string>
+				<key>Disabled</key>
+				<false/>
 				<key>Find</key>
 				<data>
 				AEFQUExFIFNTRAA=
@@ -611,7 +641,7 @@
 				<key>Comment</key>
 				<string>AppleHDA .xml.zl to .zml.zl</string>
 				<key>Disabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
 				<data>
 				LnhtbC56bA==
@@ -641,6 +671,22 @@
 				<key>Replace</key>
 				<data>
 				g710////Gw==
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Max Brightness</string>
+				<key>Disabled</key>
+				<true/>
+				<key>Find</key>
+				<data>
+				AAAAQBAHAAAQBw==
+				</data>
+				<key>Name</key>
+				<string>AppleIntelFramebufferCapri</string>
+				<key>Replace</key>
+				<data>
+				AAAAQBITAAASEw==
 				</data>
 			</dict>
 		</array>
