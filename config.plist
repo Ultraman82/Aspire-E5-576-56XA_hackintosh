@@ -488,12 +488,7 @@
 				<key>MatchOS</key>
 				<string>10.10.2,10.10.3,10.10.4,10.10.5</string>
 				<key>Name</key>
-				<string>com.apple.iokit.IOBluetoothFamily
-&lt;!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"&gt;
-&lt;plist version="1.0"&gt;
-&lt;string&gt;com.apple.iokit.IOBluetoothFamily&lt;/string&gt;
-&lt;/plist&gt;
-</string>
+				<string>com.apple.iokit.IOBluetoothFamily</string>
 				<key>Replace</key>
 				<data>
 				Qb4PAAAA61k=
