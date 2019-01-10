@@ -2,7 +2,7 @@
 
 # [mac osx sierra 10.12.6]
 osx version 10.12.6<br>
-clover version 4392
+clover Installer version: v2.4k r4674 EFI bootloader
 
 # references
 1. <a href="https://github.com/RehabMan/OS-X-Clover-Laptop-Config">OS-X-Clover-Laptop-Config</a>
